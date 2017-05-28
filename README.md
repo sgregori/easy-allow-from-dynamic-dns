@@ -5,6 +5,11 @@ Remember:
 - Install dependencies:
 	apt-get install dnsutils iptables
 
+- Download get_allowed_ips.sh or clone the complete repository:
+```
+git clone https://github.com/sgregori/easy-allow-from-dynamic-dns
+```
+
 - Edit the script and setup the directories
 
 - Write the domains to allow on /etc/easy-allow-from-dynamic-dns/allowed_domains
